@@ -1,0 +1,243 @@
+[
+  {
+    "slug": "atlanta-ga",
+    "city": "Atlanta",
+    "state": "GA",
+    "hasHolc": true,
+    "holc": 113,
+    "holcByGrade": {
+      "A": 9,
+      "B": 28,
+      "C": 42,
+      "D": 32,
+      "X": 2
+    },
+    "tracts": 520,
+    "sites": 59,
+    "fights": 2,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "charlotte-nc",
+    "city": "Charlotte",
+    "state": "NC",
+    "hasHolc": true,
+    "holc": 35,
+    "holcByGrade": {
+      "A": 3,
+      "B": 7,
+      "C": 13,
+      "D": 11,
+      "X": 1
+    },
+    "tracts": 108,
+    "sites": 1,
+    "fights": 0,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "chicago-il",
+    "city": "Chicago",
+    "state": "IL",
+    "hasHolc": true,
+    "holc": 703,
+    "holcByGrade": {
+      "C": 327,
+      "B": 160,
+      "D": 147,
+      "A": 49,
+      "X": 20
+    },
+    "tracts": 2095,
+    "sites": 29,
+    "fights": 8,
+    "wins": 1,
+    "moratoriums": 0
+  },
+  {
+    "slug": "columbus-oh",
+    "city": "Columbus",
+    "state": "OH",
+    "hasHolc": true,
+    "holc": 93,
+    "holcByGrade": {
+      "A": 8,
+      "B": 32,
+      "C": 36,
+      "D": 15,
+      "X": 2
+    },
+    "tracts": 326,
+    "sites": 12,
+    "fights": 1,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "dallas-tx",
+    "city": "Dallas",
+    "state": "TX",
+    "hasHolc": true,
+    "holc": 48,
+    "holcByGrade": {
+      "B": 15,
+      "C": 12,
+      "D": 9,
+      "X": 2,
+      "A": 10
+    },
+    "tracts": 464,
+    "sites": 11,
+    "fights": 0,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "des-moines-ia",
+    "city": "Des Moines",
+    "state": "IA",
+    "hasHolc": true,
+    "holc": 24,
+    "holcByGrade": {
+      "A": 7,
+      "B": 6,
+      "C": 6,
+      "D": 5
+    },
+    "tracts": 90,
+    "sites": 3,
+    "fights": 0,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "loudoun-county-va",
+    "city": "Loudoun County",
+    "state": "VA",
+    "hasHolc": false,
+    "raceCategories": [],
+    "holc": 0,
+    "holcByGrade": {},
+    "tracts": 197,
+    "sites": 215,
+    "fights": 2,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "memphis-tn",
+    "city": "Memphis",
+    "state": "TN",
+    "hasHolc": true,
+    "holc": 26,
+    "holcByGrade": {
+      "A": 7,
+      "B": 8,
+      "C": 8,
+      "D": 3
+    },
+    "tracts": 144,
+    "sites": 0,
+    "fights": 0,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "niagara-falls-ny",
+    "city": "Niagara Falls",
+    "state": "NY",
+    "hasHolc": true,
+    "holc": 16,
+    "holcByGrade": {
+      "B": 7,
+      "A": 1,
+      "C": 4,
+      "D": 2,
+      "X": 2
+    },
+    "tracts": 33,
+    "sites": 3,
+    "fights": 1,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "omaha-ne",
+    "city": "Omaha",
+    "state": "NE",
+    "hasHolc": true,
+    "holc": 10,
+    "holcByGrade": {
+      "A": 1,
+      "B": 2,
+      "C": 3,
+      "D": 3,
+      "X": 1
+    },
+    "tracts": 181,
+    "sites": 6,
+    "fights": 0,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "petersburg-va",
+    "city": "Petersburg",
+    "state": "VA",
+    "hasHolc": true,
+    "raceCategories": [
+      "Colored Residential",
+      "Mixed Colored and White",
+      "Poor White Residential"
+    ],
+    "holc": 32,
+    "holcByGrade": {
+      "X": 32
+    },
+    "tracts": 30,
+    "sites": 3,
+    "fights": 0,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "phoenix-az",
+    "city": "Phoenix",
+    "state": "AZ",
+    "hasHolc": true,
+    "holc": 26,
+    "holcByGrade": {
+      "A": 5,
+      "B": 8,
+      "C": 4,
+      "D": 8,
+      "X": 1
+    },
+    "tracts": 112,
+    "sites": 1,
+    "fights": 0,
+    "wins": 0,
+    "moratoriums": 0
+  },
+  {
+    "slug": "richmond-va",
+    "city": "Richmond",
+    "state": "VA",
+    "hasHolc": true,
+    "holc": 49,
+    "holcByGrade": {
+      "B": 15,
+      "C": 14,
+      "D": 12,
+      "X": 1,
+      "A": 7
+    },
+    "tracts": 157,
+    "sites": 5,
+    "fights": 0,
+    "wins": 0,
+    "moratoriums": 0
+  }
+]
