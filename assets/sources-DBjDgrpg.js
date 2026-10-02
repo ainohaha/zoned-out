@@ -30,5 +30,5 @@ import{getJSON as o,fmt as i}from"./data-O2ZHKVoJ.js";const r=[["FracTracker All
     </div>
     <div class="src-foot">
       <span class="campaign">Zoned out.</span>
-      <p class="meta">A student studio project, Harvard, 2026. Not affiliated with any agency or developer. Display type: Dirty Stains by Andhika Pradana (licensed). Interface: Archivo, Source Serif 4, IBM Plex Mono. Built on the Fieldwork design system.</p>
+      <p class="meta">A student studio project, Harvard, 2026. Not affiliated with any agency or developer.</p>
     </div>`}export{d as mount};

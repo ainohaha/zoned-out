@@ -11,8 +11,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Archivo+Black&family=IBM+Plex+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..600&display=swap" rel="stylesheet" />
   <link rel="preload" href="/zoned-out/fonts/DirtyStains.ttf" as="font" type="font/ttf" crossorigin />
-  <script type="module" crossorigin src="/zoned-out/assets/index-DYOeuRIn.js"></script>
-  <link rel="stylesheet" crossorigin href="/zoned-out/assets/index-E0rkdzXY.css">
+  <script type="module" crossorigin src="/zoned-out/assets/main-DTeBxp67.js"></script>
+  <link rel="modulepreload" crossorigin href="/zoned-out/assets/sections-0dlh3HCY.js">
+  <link rel="modulepreload" crossorigin href="/zoned-out/assets/reveal-BGnDgJKr.js">
+  <link rel="stylesheet" crossorigin href="/zoned-out/assets/sections-DNt6pcZ4.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -21,14 +23,13 @@
     <div class="wrap">
       <a class="mark" href="#top">ZONED OUT</a>
       <ol id="nav-links">
-        <li><a href="#history"><span>01</span>History</a></li>
-        <li><a href="#byright"><span>02</span>By right</a></li>
+        <li><a href="history.html" data-spy="history"><span>01</span>History</a></li>
+        <li><a href="#byright"><span>02</span>The Process</a></li>
         <li><a href="#tracker"><span>03</span>Tracker</a></li>
-        <li><a href="#posters"><span>04</span>Posters</a></li>
-        <li><a href="#alerts"><span>05</span>Alerts</a></li>
-        <li><a href="#toolkit"><span>06</span>Toolkit</a></li>
+        <li><a href="#alerts"><span>04</span>Alerts</a></li>
+        <li><a href="#toolkit"><span>05</span>Toolkit</a></li>
       </ol>
-      <a class="btn btn-primary btn-sm" href="#alerts">Get alerts</a>
+      <a class="btn btn-primary btn-sm" href="#alerts" data-open-alerts>Get alerts</a>
       <button class="btn btn-sm nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
     </div>
     <div class="progress" id="progress" aria-hidden="true"></div>
@@ -60,10 +61,7 @@
             <div class="c-7 prose history-lede">
               <p>Modern zoning has been falsely sold as neutral, failing to recognize the deeply rooted systemic injustice stemming from the 1900s.</p>
               <p>At every step, the people most affected had the least say. They were graded in secret, and today they’re approved without a hearing.</p>
-              <button class="btn btn-acid" id="ch-all" aria-pressed="false">
-                <svg class="ch-all-icon" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><rect x="1" y="1" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"/><path class="v" d="M9 5v8" stroke="currentColor" stroke-width="2"/><path d="M5 9h8" stroke="currentColor" stroke-width="2"/></svg>
-                <span class="ch-all-label">Open all chapters</span>
-              </button>
+<a class="btn btn-acid hist-cta" href="history.html">Learn the history<span class="hist-arrow" aria-hidden="true">↗</span></a>
             </div>
             <figure class="c-5 intro-photo taped" aria-labelledby="intro-photo-cap">
               <span class="clip-print"><canvas aria-hidden="true"></canvas></span>
@@ -72,7 +70,6 @@
           </div>
         </div>
       </div>
-      <div id="chapters"></div>
     </section>
 
     <!-- ========================================================= 02 BY RIGHT -->
@@ -108,10 +105,11 @@
           </article>
         </div>
 
-        <div class="grid byright-stats" id="byright-stats">
-          <!-- filled by sections/byright -->
-        </div>
 
+        <header class="pw-head reveal">
+          <h3 class="pw-sticker">How a project gets approved</h3>
+          <p class="lede">Every application takes one of two routes. Only one of them lets the public in.</p>
+        </header>
         <figure class="pathway reveal">
           <div class="pathway-flow">
             <p class="pw-hint" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14"><path d="M2 1 L2 12 L5 9 L7.5 13.5 L9.3 12.6 L6.9 8.2 L11 8.2 Z" fill="currentColor"/></svg>Click for the full process</p>
@@ -136,6 +134,10 @@
           <div class="pw-detail" id="pw-detail" aria-live="polite"><div class="pw-detail-inner"></div></div>
         </figure>
 
+        <div class="grid byright-stats" id="byright-stats">
+          <!-- filled by sections/byright -->
+        </div>
+
 
       </div>
       <div class="ht-fade" aria-hidden="true"></div>
@@ -144,8 +146,8 @@
     <!-- ========================================================== 03 TRACKER -->
     <section id="tracker" class="on-ink" aria-labelledby="tracker-title">
       <div class="wrap bridge reveal">
-        <h2 id="tracker-title" class="display bridge-line">Those two options,<br /><span class="bridge-n" data-sites-count>1,693</span> times.</h2>
-        <p class="bridge-sub"><b>Find out the ones near you.</b></p>
+        <h2 id="tracker-title" class="display bridge-line">Those two paths,<br /><span class="bridge-n" data-sites-count>1,693</span> times.</h2>
+        <p class="bridge-sub"><b>Find the data centers near you.</b></p>
         <span class="bridge-arrow" aria-hidden="true"></span>
       </div>
       <div id="atlas" class="atlas" data-lazy="atlas">
@@ -153,50 +155,54 @@
       </div>
     </section>
 
-    <!-- ========================================================== 04 POSTERS -->
-    <section id="posters" class="on-vermilion grain" aria-labelledby="posters-title">
-      <div class="wrap block posters-head">
-        <div class="sec-head"><span class="label">04 / Poster generator</span><span class="label">Print it. Wheatpaste it. Bring it to the hearing.</span></div>
-        <div class="grid">
-          <h2 id="posters-title" class="campaign d-camp c-8">Make the wall remember.</h2>
-          <p class="c-4 lede">Pick your city. The generator cuts its 1930s redline and today's data centers into a print-ready poster, 18×24 up to 24×36, free to use.</p>
-        </div>
-      </div>
-      <div id="studio" class="studio" data-lazy="posters">
-        <div class="wrap label">Loading the poster studio…</div>
-      </div>
-      <div class="wrap gallery-wrap">
-        <p class="label">Made with the generator</p>
-        <div class="gallery" id="gallery"></div>
-      </div>
-    </section>
-
-    <!-- =========================================================== 05 ALERTS -->
+    <!-- =========================================================== 04 ALERTS -->
     <section id="alerts" class="on-paper block" aria-labelledby="alerts-title">
       <div class="wrap">
-        <div class="sec-head"><span class="label">05 / Stay alert</span><span class="label">Before it's built, not after</span></div>
+        <div class="sec-head"><span class="label">04 / Stay alert</span><span class="label">Before it's built, not after</span></div>
         <div class="grid">
-          <h2 id="alerts-title" class="display d-xl c-8">Know before<br />the fences go up.</h2>
-          <p class="c-4 lede">Most residents find out after the vote, or after the permit when there never was a vote. Sign up and we'll tell you when a proposal, status change, hearing or comment deadline hits your area.</p>
+          <h2 id="alerts-title" class="display d-lg c-7">Know before<br />the fences go up.</h2>
+          <p class="c-5 lede alerts-lede">Most residents find out after the vote, or after the permit when there never was a vote. Sign up to know when a proposal, status change, hearing or comment deadline arrives in your area.</p>
         </div>
-        <div class="grid alerts-grid">
-          <div class="c-5">
-            <form id="alert-form" class="alert-form" novalidate aria-labelledby="alert-form-title"></form>
-          </div>
-          <div class="c-7">
-            <div id="watch" class="watch"></div>
-          </div>
+        <div class="alerts-grid">
+          <div id="watch" class="watch"></div>
         </div>
+        <!-- Contact details only come up when someone asks for alerts. -->
+        <dialog id="alert-dialog" class="alert-dialog" aria-labelledby="alert-form-title">
+          <button type="button" class="dlg-close" data-close-alerts aria-label="Close">×</button>
+          <form id="alert-form" class="alert-form" novalidate></form>
+        </dialog>
       </div>
     </section>
 
-    <!-- ========================================================== 06 TOOLKIT -->
+    <!-- ========================================================== 05 TOOLKIT -->
     <section id="toolkit" class="on-ink block grain" aria-labelledby="toolkit-title">
       <div class="wrap">
-        <div class="sec-head"><span class="label">06 / Toolkit</span><span class="label">Not legal advice. Check your local code.</span></div>
+        <div class="sec-head"><span class="label">05 / Toolkit</span><span class="label">Not legal advice. Check your local code.</span></div>
         <h2 id="toolkit-title" class="display d-xl">Demand a hearing.</h2>
         <div id="toolkit-body"></div>
+        <div class="tk-switch" role="tablist" aria-label="Toolkit">
+          <button role="tab" id="tk-tab-templates" data-tk="templates" aria-selected="true" aria-controls="tk-templates">Email templates</button>
+          <button role="tab" id="tk-tab-poster" data-tk="poster" aria-selected="false" aria-controls="posters">Poster maker</button>
+        </div>
+        <div id="tk-templates" role="tabpanel" aria-labelledby="tk-tab-templates"></div>
       </div>
+    <!-- ------------------------------------------- 05b TOOLKIT: POSTERS -->
+      <section id="posters" class="on-vermilion grain" aria-labelledby="posters-title" role="tabpanel" hidden>
+        <div class="wrap block posters-head">
+          <div class="sec-head"><span class="label">05 / Toolkit / Poster generator</span><span class="label">Print it. Wheatpaste it. Bring it to the hearing.</span></div>
+          <div class="grid">
+            <h2 id="posters-title" class="campaign d-camp c-8">Make the wall remember.</h2>
+            <p class="c-4 lede">Pick your city. The generator cuts its 1930s redline and today's data centers into a print-ready poster, 18×24 up to 24×36, free to use.</p>
+          </div>
+        </div>
+        <div id="studio" class="studio" data-lazy="posters">
+          <div class="wrap label">Loading the poster studio…</div>
+        </div>
+        <div class="wrap gallery-wrap">
+          <p class="label">Made with the generator</p>
+          <div class="gallery" id="gallery"></div>
+        </div>
+      </section>
     </section>
 
   </main>

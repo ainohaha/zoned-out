@@ -1,1 +1,0 @@
-const s=new EventTarget,n=new Map,c=(t,e)=>{n.set(t,e),s.dispatchEvent(new CustomEvent(t,{detail:e}))},r=(t,e,{replay:a=!0}={})=>{s.addEventListener(t,o=>e(o.detail)),a&&n.has(t)&&e(n.get(t))};export{c as e,r as o};
