@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T21:13:32.842Z",
+ "generatedAt": "2026-10-04T22:32:41.933Z",
  "notes": {
   "nearKm": 0.8,
   "tractMethod": "Tract assigned to the HOLC grade containing its first-ring centroid; population-weighted ACS shares.",
@@ -10,10 +10,10 @@
   "groups": {
    "Discretionary hearing": {
     "n": 87,
-    "blocked": 55,
-    "stopped": 60,
-    "blockedPct": 63.2,
-    "stoppedPct": 69,
+    "blocked": 57,
+    "stopped": 61,
+    "blockedPct": 65.5,
+    "stoppedPct": 70.1,
     "medianPctNonWhite": 23.2,
     "medianIncome": 86000
    },
@@ -48,8 +48,8 @@
   "byHearing": {
    "Yes": {
     "n": 97,
-    "blocked": 57,
-    "blockedPct": 58.8
+    "blocked": 59,
+    "blockedPct": 60.8
    },
    "No": {
     "n": 51,
@@ -211,12 +211,12 @@
    "withLever": 7
   },
   "tactics": {
-   "Organized group": 14,
-   "Coalition (civil rights/env/labor)": 6,
-   "Packed hearings": 17,
+   "Organized group": 15,
+   "Coalition (civil rights/env/labor)": 7,
+   "Packed hearings": 19,
    "Petition": 15,
-   "Disclosure demands": 14,
-   "Moratorium push": 17,
+   "Disclosure demands": 15,
+   "Moratorium push": 18,
    "Expert counter-analysis": 9,
    "Legal challenge": 11,
    "Election/recall": 3,
@@ -278,9 +278,9 @@
   }
  },
  "stopped": {
-  "n": 81,
+  "n": 83,
   "byPathway": {
-   "Discretionary hearing": 55,
+   "Discretionary hearing": 57,
    "Unknown": 3,
    "No public vote": 9,
    "Other lever": 14
